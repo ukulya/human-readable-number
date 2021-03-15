@@ -2,8 +2,6 @@ var th_val = ['', 'thousand', 'million', 'billion', 'trillion'];
 var dg_val = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 var tn_val = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
 var tw_val = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-function toWordsconver(s) {
-  s = s.toString();
 module.exports = function toReadable (number) {
     s = s.toString();
     s = s.replace(/[\, ]/g, '');
