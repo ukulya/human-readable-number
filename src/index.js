@@ -1,4 +1,4 @@
-module.exports = function toReadable (number) {
+module.exports = function numberToWords (number) {
     var th_val = ['', 'thousand', 'million', 'billion', 'trillion'];
 var dg_val = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 var tn_val = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
